@@ -1,0 +1,40 @@
+header {
+    border-bottom: 1px solid;
+
+    .navbar-brand {
+    .logoPrincipal {
+        width: 120px;
+        transition: all 0.3s;
+      
+        &:hover {
+          width: 130px;
+        }
+      }
+    }
+
+    li {
+        list-style-type: none;
+        color: blueviolet;
+        font-weight: bold;
+        font-size: larger;
+        display: inline-block;
+        
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            
+                &:hover {
+                  background-color: red;
+                }
+                    
+
+                .logosRedes {
+                    width: 40px;
+                    margin: 5px;
+                 }
+
+        }
+    }
+
+}
