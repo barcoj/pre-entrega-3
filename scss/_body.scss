@@ -17,13 +17,18 @@ body {
             font-weight: bold;
         }
 
+        h4 {
+            color: rgba(255, 0, 0, 0.496);
+            font-weight: bold;
+        }
         form {
             margin: 0 auto;
-            width: 400px;
+            // width: 100%;
             padding: 2em;
-            border: 2px solid #ccc;
+            border: 0px solid #ccc;
             border-radius: 1em;
         }
+            
             
         
         ul {
@@ -40,6 +45,7 @@ body {
             display: inline-block;
             width: 90px;
             text-align: right;
+            color: #ccc;
         }
 
         input textarea {
